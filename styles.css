@@ -12,13 +12,22 @@
     --clr-grey-950: hsl(0, 0% ,7%);
 }
 
-@media (max-width: 1440px){
+@media (min-width: 375px){
 
 }
 
 body {
     background-color: var(--clr-yellow);
     font-family: var(--ff-primary);
+    font-size: 16px;;
+}
+
+.author {
+    display: inline-block;
+}
+
+.author-name{
+    font-weight: var(--fw-bold);
 }
 
 .learning {
@@ -28,6 +37,8 @@ body {
 
 .blog-preview-card {
     background-color: var(--clr-white);
+    border: 2px solid var(--clr-grey-950);
+    border-radius: 20px;
     display: block;
     max-width: 384px;
     max-height: 522px;
