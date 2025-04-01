@@ -12,8 +12,12 @@
     --clr-grey-950: hsl(0, 0% ,7%);
 }
 
-@media (min-width: 375px){
+@media (max-width: 1440px){
 
+}
+
+@media (min-width: 375px){
+    
 }
 
 body {
@@ -22,8 +26,14 @@ body {
     font-size: 16px;;
 }
 
+.blog-preview-card__image {
+    border-radius: 20px;
+    padding: 24px 24px;
+    
+}
+
 .author {
-    display: inline-block;
+    display: flex;
 }
 
 .author-name{
@@ -40,6 +50,7 @@ body {
     border: 2px solid var(--clr-grey-950);
     border-radius: 20px;
     display: block;
+    overflow: hidden;
     max-width: 384px;
     max-height: 522px;
     padding: 24, 24;
